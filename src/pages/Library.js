@@ -10,7 +10,8 @@ function LibraryPage() {
             </div>
             <br />
             <div className={classes.videos}>
-                <Video videoID="9ZfN87gSjvI" videoName="4K Landscapes Video"/>
+                <Video videoID="9ZfN87gSjvI" videoName="Test Video"/>
+                <Video videoID="9ZfN87gSjvI" videoName="Test Video"/>
             </div>
         </div>
         

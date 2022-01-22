@@ -3,7 +3,6 @@ import classes from './Video.module.css'
 function Video(props){
     return (
         <div className={classes.video}>
-            <div>
                 <iframe
                     width="853"
                     height="480"
@@ -15,7 +14,6 @@ function Video(props){
                 />
                 <br />
                 <h className={classes.videotitle}>{props.videoName}</h>
-            </div>
         </div>
     );
 }

@@ -4,4 +4,6 @@
 
 .videos {
     display: flex;
+    flex-flow: column;
+    background-color: white;
 }

@@ -6,6 +6,8 @@ function OfficerPage() {
     return (
         <div className={classes.officerpage}>
             <OfficerInfo />
+            <OfficerInfo />
+            <OfficerInfo />
         </div>
     );
 }

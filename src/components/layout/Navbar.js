@@ -8,16 +8,22 @@ function Navbar() {
       <div className="navbar">
         <ul className={classes.navbarlist}>
           <li className={classes.navitem}>
-            <Link to="/">About Us</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className={classes.navitem}>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/about">About</Link>
           </li>
           <li className={classes.navitem}>
-            <Link to="/library">Video Library</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li className={classes.navitem}>
-            <Link to="/officer">Officer Info</Link>
+            <Link to="/library">Videos</Link>
+          </li>
+          <li className={classes.navitem}>
+            <Link to="/officer">Officers</Link>
+          </li>
+          <li className={classes.navitem}>
+            <Link to="/calendar">Calendar</Link>
           </li>
         </ul>
       </div>

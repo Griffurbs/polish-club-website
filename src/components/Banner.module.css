@@ -1,25 +1,37 @@
 .banner {
     display: flex;
     width: 100%;
+    height: 40px;
+}
+
+.bannerContainer {
     padding: 10px;
 }
 
 .title {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 20px;
     font-size: 20px;
+    font-weight: bold;
     min-width: 200px;
     text-align: left;
     flex-grow: 4;
 }
 
 .media {
+    display: flex;
     margin-left: auto;
     text-align: right;
 }
 
 .mediaicon {
-    max-width: 4%;
-    min-width: 25px;
-    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mediaicon img {
+    max-height: 40px;
+    min-height: 25px;
+    width: auto;
 }

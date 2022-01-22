@@ -1,6 +1,8 @@
 function Social(props) {
     return (
-        <a href={props.link}><img src={"./" + props.imgName} className={props.className}/></a>
+        <div className={props.className}>
+            <a href={props.link}><img src={"./" + props.imgName}/></a>
+        </div>
     );
 }
 
