@@ -1,0 +1,14 @@
+.video {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video iframe {
+    max-width: 853;
+    max-height: 480;
+}
+
+.videotitle {
+    font-size: 30px;
+}

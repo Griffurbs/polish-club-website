@@ -1,0 +1,35 @@
+.navbarlist {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.navitem {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navitem a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.navitem a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.navitem a:active {
+    color: darkgray;
+    text-decoration: none;
+}
