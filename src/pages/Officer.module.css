@@ -1,5 +1,7 @@
 .officerpage {
-    width: 70%;
+    /* width: 70%; */
+    margin-right: 0;
+    margin-left: 0;
     padding-left: 15%;
     padding-right: 15%;
     background-color: white;

@@ -9,14 +9,14 @@ import LibraryPage from './pages/Library';
 import OfficerPage from './pages/Officer';
 import CalendarPage from './pages/Calendar';
 
-import Navbar from './components/layout/Navbar';
+import MainNavbar from './components/layout/Navbar';
 import Banner from './components/Banner';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Navbar />
+      <MainNavbar />
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/about' element={<AboutPage />}/>

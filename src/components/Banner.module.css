@@ -1,7 +1,8 @@
-.banner {
+.banner{
     display: flex;
-    width: 100%;
-    height: 40px;
+    margin-right: auto;
+    text-align: right;
+    margin-left: auto;
 }
 
 .bannerContainer {
@@ -14,13 +15,10 @@
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
-    min-width: 200px;
     text-align: left;
-    flex-grow: 4;
 }
 
 .media {
-    display: flex;
     margin-left: auto;
     text-align: right;
 }
@@ -28,6 +26,8 @@
 .mediaicon {
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 0;
+    text-align: right;
 }
 
 .mediaicon img {

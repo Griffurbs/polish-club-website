@@ -1,12 +1,13 @@
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import classes from './Navbar.module.css';
 
-function Navbar() {
+function MainNavbar() {
 
     return (
-      <div className="navbar">
-        <ul className={classes.navbarlist}>
+      <div>
+        {/* <ul className={classes.navbarlist}>
           <li className={classes.navitem}>
             <Link to="/">Home</Link>
           </li>
@@ -25,10 +26,35 @@ function Navbar() {
           <li className={classes.navitem}>
             <Link to="/calendar">Calendar</Link>
           </li>
-        </ul>
+        </ul> */}
+        <Container>
+          
+          <Navbar>
+            <Nav className="m-auto">
+              <Nav.Link href="/">
+                Home
+              </Nav.Link>
+              <Nav.Link href="/about">
+                About
+              </Nav.Link>
+              <Nav.Link href="/contact">
+                Contact
+              </Nav.Link>
+              <Nav.Link href="/library">
+                Library
+              </Nav.Link>
+              <Nav.Link href="/officer">
+                Officers
+              </Nav.Link>
+              <Nav.Link href="/calendar">
+                Calendar
+              </Nav.Link>
+            </Nav>
+          </Navbar>
+        </Container>
       </div>
     );
   }
   
-  export default Navbar;
+  export default MainNavbar;
   
