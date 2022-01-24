@@ -1,5 +1,5 @@
 function ContactPage() {
-    return <div>Contact Page</div>
+    return <div>Polishclubatut@gmail.com</div>
 }
 
 export default ContactPage;
