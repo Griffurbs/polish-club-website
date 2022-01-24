@@ -2,8 +2,8 @@
 }
 
 .picture {
-    font-size: 12px;
-    min-width: 250px;
+    width:auto;
+    margin: auto;
 }
 
 .picture img {
@@ -36,5 +36,5 @@
 }
 
 .desc {
-    font-size: 20px;
+    text-align: justify;
 }
