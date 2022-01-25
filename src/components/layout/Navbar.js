@@ -7,17 +7,17 @@ function MainNavbar() {
 
     return (
       <div>
-        <Navbar collapseOnSelect expand='sm' bg='poland'>
+        <Navbar collapseOnSelect expand='sm' variant="dark" bg="poland">
           <Container className="m-auto">
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" className="text-white"/>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id='responsive-navbar-nav'>
               <Nav className="m-auto">
-                <Nav.Link href="/" className="m-auto text-white">Home</Nav.Link>
-                <Nav.Link href="/about" className="m-auto text-white">About</Nav.Link>
-                <Nav.Link href="/contact" className="m-auto text-white">Contact</Nav.Link>
-                <Nav.Link href="/library" className="m-auto text-white">Library</Nav.Link>
-                <Nav.Link href="/officer" className="m-auto text-white">Officers</Nav.Link>
-                <Nav.Link href="/calendar" className="m-auto text-white">Calendar</Nav.Link>
+                <Nav.Link href="/" className="m-auto">Home</Nav.Link>
+                <Nav.Link href="/about" className="m-auto">About</Nav.Link>
+                <Nav.Link href="/contact" className="m-auto">Contact</Nav.Link>
+                <Nav.Link href="/library" className="m-auto">Library</Nav.Link>
+                <Nav.Link href="/officer" className="m-auto">Officers</Nav.Link>
+                <Nav.Link href="/calendar" className="m-auto">Calendar</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
