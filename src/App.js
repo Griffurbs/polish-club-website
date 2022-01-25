@@ -16,7 +16,7 @@ import Banner from './components/Banner';
 function App() {
   return (
     <div className="App">
-      <Container className="bg-white p-0" fluid>
+      <Container className="bg-white p-0 exp" fluid>
         <Banner />
         <MainNavbar />
         <Routes>
