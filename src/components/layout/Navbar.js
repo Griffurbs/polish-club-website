@@ -18,6 +18,7 @@ function MainNavbar() {
                 <Nav.Link href="/library" className="m-auto">Library</Nav.Link>
                 <Nav.Link href="/officer" className="m-auto">Officers</Nav.Link>
                 <Nav.Link href="/calendar" className="m-auto">Calendar</Nav.Link>
+                <Nav.Link href="/donate" className="m-auto">Donate</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
