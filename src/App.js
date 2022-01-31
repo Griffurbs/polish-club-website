@@ -13,6 +13,7 @@ import DonationPage from './pages/Donation';
 
 import MainNavbar from './components/layout/Navbar';
 import Banner from './components/Banner';
+import RecipePage from './pages/Recipe';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/officer' element={<OfficerPage />}/>
           <Route path='/calendar' element={<CalendarPage />}/>
           <Route path='/donate' element={<DonationPage />}/>
+          <Route path='/recipe' element={<RecipePage />}/>
         </Routes>
       </Container>
   );
