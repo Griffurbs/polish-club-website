@@ -16,8 +16,7 @@ import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className="App">
-      <Container className="bg-white p-0 exp" fluid>
+      <Container className="bg-white p-0 exp">
         <Banner />
         <MainNavbar />
         <Routes>
@@ -30,7 +29,6 @@ function App() {
           <Route path='/donate' element={<DonationPage />}/>
         </Routes>
       </Container>
-    </div>
   );
 }
 

@@ -16,7 +16,7 @@ function Banner(){
                             <Container>
                                 <div className="float-end">
                                     <Row xs="auto">
-                                        <Col className="p-1 m-auto">                        
+                                        {/* <Col className="p-1 m-auto">                        
                                             <div className={classes.mediaicon}>
                                                 <form action="https://www.paypal.com/donate" method="post" target="_top">
                                                     <input type="hidden" name="hosted_button_id" value="G8TUX8SPHFSA6" />
@@ -24,7 +24,7 @@ function Banner(){
                                                     <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                                                 </form>
                                             </div>
-                                        </Col>
+                                        </Col> */}
                                         <Col className="p-1">
                                             <Social imgName="instagram.png" link="https://www.instagram.com/polishclubatut/" className={classes.mediaicon} />
                                         </Col>
