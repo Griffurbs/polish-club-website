@@ -6,7 +6,7 @@ import classes from './Navbar.module.css';
 function MainNavbar() {
 
     return (
-      <div>
+      <div className="mb-3">
         <Navbar collapseOnSelect expand='sm' variant="dark" bg="poland">
           <Container className="m-auto">
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

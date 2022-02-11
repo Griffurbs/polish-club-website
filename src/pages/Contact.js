@@ -6,7 +6,7 @@ function ContactPage() {
             </div>
             <div style={{padding: 10}}>
                 Email us at: &nbsp;
-                <a href = "mailto: Polishclubatut@gmail.com">Polishclubatut@gmail.com</a>
+                <a href = "mailto: texaspolishclub@gmail.com">texaspolishclub@gmail.com</a>
             </div>
         </div>
     );
