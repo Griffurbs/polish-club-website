@@ -154,6 +154,7 @@ const eventlist = [
         id: 23,
         title: 'Polish Festival in Houston',
         allDay: true,
+        popup: true,
         start: new Date(2022, 4, 7),
         end: new Date(2022, 4, 7)
     },
@@ -169,6 +170,7 @@ function CalendarPage() {
                     startAccessor="start"
                     endAccessor="end"
                     style={{height:500}}
+                    popup="true"
                 />
             </Container>
         </div>

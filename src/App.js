@@ -14,6 +14,7 @@ import DonationPage from './pages/Donation';
 import MainNavbar from './components/layout/Navbar';
 import Banner from './components/Banner';
 import RecipePage from './pages/Recipe';
+import JoinPage from './pages/Join';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/calendar' element={<CalendarPage />}/>
           <Route path='/donate' element={<DonationPage />}/>
           <Route path='/recipe' element={<RecipePage />}/>
+          <Route path="/join" element={<JoinPage />}/>
         </Routes>
       </Container>
   );

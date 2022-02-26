@@ -20,6 +20,7 @@ function MainNavbar() {
                 <Nav.Link href="/calendar" className="m-auto">Calendar</Nav.Link>
                 <Nav.Link href="/donate" className="m-auto">Donate</Nav.Link>
                 <Nav.Link href="/recipe" className="m-auto">Recipes</Nav.Link>
+                <Nav.Link href="/join" className="m-auto">Join Now</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
