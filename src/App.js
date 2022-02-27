@@ -15,6 +15,7 @@ import MainNavbar from './components/layout/Navbar';
 import Banner from './components/Banner';
 import RecipePage from './pages/Recipe';
 import JoinPage from './pages/Join';
+import InfoPage from './pages/Info'
 
 function App() {
   return (
@@ -23,10 +24,8 @@ function App() {
         <MainNavbar />
         <Routes>
           <Route path='/' element={<HomePage />}/>
-          <Route path='/about' element={<AboutPage />}/>
-          <Route path='/contact' element={<ContactPage />}/>
+          <Route path='/info' element={<InfoPage />}/>
           <Route path='/library' element={<LibraryPage />}/>
-          <Route path='/officer' element={<OfficerPage />}/>
           <Route path='/calendar' element={<CalendarPage />}/>
           <Route path='/donate' element={<DonationPage />}/>
           <Route path='/recipe' element={<RecipePage />}/>
