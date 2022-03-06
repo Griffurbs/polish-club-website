@@ -14,6 +14,7 @@
 # Testing assets
 /public/recipes
 
+
 # misc
 .DS_Store
 .env.local
