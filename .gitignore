@@ -11,6 +11,12 @@
 # production
 /build
 
+# Testing assets
+/public/books
+/public/instagram
+/public/officers
+/public/recipes
+
 # misc
 .DS_Store
 .env.local

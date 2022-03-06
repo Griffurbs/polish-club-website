@@ -1,13 +1,180 @@
-import { Container } from "react-bootstrap";
+import { Carousel, Container } from "react-bootstrap";
 
-function grabInsta() {
-    
-}
+var insta_imgs = [
+    {
+        key:0,
+        img:"IMG_5264.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6415.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6416.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6417.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6419.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6420.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6423.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6425.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6426.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6427.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6428.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6429.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6430.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6431.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6432.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6433.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6434.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6436.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6437.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6438.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6439.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6440.jfif"
+    },
+    {
+        key:0,
+        img:"IMG_6441.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6442.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6443.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6444.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6445.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6446.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6447.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6448.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6449.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6450.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6451.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6452.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6453.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6454.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6455.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6456.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6457.jpg"
+    },
+    {
+        key:0,
+        img:"IMG_6458.jpg"
+    },
+]
 
 function Instagram() {
     return (
-        <Container>
-            
+        <Container className="instagram m-auto">
+            <Carousel className="m-auto h-100" variant="dark">
+                {insta_imgs.map((img) =>
+                    <Carousel.Item className="">
+                        <div className="m-auto">
+                            <img src={"/instagram/" + img.img} className="row text-center m-auto img-fluid h-100" alt="insta-feed"/>
+                        </div>
+                    </Carousel.Item>
+                )}
+            </Carousel>
         </Container>
     );
 }

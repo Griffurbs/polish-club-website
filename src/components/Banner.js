@@ -10,7 +10,7 @@ function Banner(){
                 <Container fluid="true">
                     <Row>
                         <Col>
-                            <div className={classes.title}>Polish Club at UT</div>
+                            <div className={classes.title + " h-100 m-2"}>Polish Club at UT</div>
                         </Col>
                         <Col>
                             <Container>

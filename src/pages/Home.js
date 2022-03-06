@@ -1,12 +1,12 @@
 
-import { Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import Instagram from '../components/Instagram';
 
 function HomePage() {
     return (
-        <div>
-            <Container fluid>
-            </Container>
-        </div>
+        <Container fluid className="instagram m-auto h-100">
+            <Instagram />
+        </Container>
     );
 }
 
