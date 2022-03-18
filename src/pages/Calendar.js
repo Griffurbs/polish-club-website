@@ -158,6 +158,14 @@ const eventlist = [
         start: new Date(2022, 4, 7),
         end: new Date(2022, 4, 7)
     },
+    {
+        id: 24,
+        title: 'Lech Wałęsa Speaking Event',
+        allDay: true,
+        popup: true,
+        start: new Date(2022, 4, 5, 17),
+        end: new Date(2022, 4, 5, 19)
+    },
 ]
 
 function CalendarPage() {

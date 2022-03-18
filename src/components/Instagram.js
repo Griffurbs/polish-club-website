@@ -87,10 +87,6 @@ var insta_imgs = [
     },
     {
         key:0,
-        img:"IMG_6440.jfif"
-    },
-    {
-        key:0,
         img:"IMG_6441.jpg"
     },
     {
