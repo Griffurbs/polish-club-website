@@ -166,7 +166,7 @@ function Instagram() {
                 {insta_imgs.map((img) =>
                     <Carousel.Item className="">
                         <div className="m-auto">
-                            <img src={"/instagram/" + img.img} className="row text-center m-auto img-fluid" alt="insta-feed"/>
+                            <img src={"/instagram/" + img.img} className="row text-center m-auto img-fluid instagram" alt="insta-feed"/>
                         </div>
                     </Carousel.Item>
                 )}

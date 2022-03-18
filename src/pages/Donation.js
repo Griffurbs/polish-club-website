@@ -10,6 +10,8 @@ function DonationPage() {
 
                 Please consider donating to the Polish Club at UT. Any donation is greatly appreciated. The Polish Club is a non-profit and relies on outside funding to keep the club running. Thank you very much for your support and generosity.
                 </p>
+                <b><h3>Why donate?</h3></b>
+                <p>With the funds we receive, we will pay for guest speakers, purchase club t-shirts, cater Polish food for our events, help cover travel costs to Polish-related sites, pay for ingredients for cooking sessions, and cover general administrative fees.</p>
                 <h3>How to donate:</h3>
                 <p>Payments can be made using PayPal. If you do not have a PayPal account, you can make a payment using a debit/credit card through the PayPal link as well. We are asking donors to please enter their names and email addresses in the "comment" section of their PayPal payment so the club can properly express its gratitude. Anonymous donations are also accepted. Alternatively, checks can be made out to the "Polish Club at UT" and mailed to:
                 <br/>
