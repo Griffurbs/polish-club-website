@@ -10,7 +10,6 @@ function MainNavbar() {
             <Navbar.Collapse id='responsive-navbar-nav'>
               <Nav className="m-auto">
                 <Nav.Link href="/" className="m-auto">Home</Nav.Link>
-                <Nav.Link href="/about" className="m-auto">About</Nav.Link>
                 <Nav.Link href="/donate" className="m-auto">Donate</Nav.Link>
                 <Nav.Link href="/officer" className="m-auto">Officers</Nav.Link>
                 <Nav.Link href="/contact" className="m-auto">Contact Us</Nav.Link>

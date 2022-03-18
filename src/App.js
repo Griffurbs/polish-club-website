@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 import HomePage from './pages/Home';
-import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import LibraryPage from './pages/Library';
 import OfficerPage from './pages/Officer';
@@ -24,8 +23,6 @@ function App() {
         <MainNavbar />
         <Routes>
           <Route path='/' element={<HomePage />}/>
-          {/* <Route path='/info' element={<InfoPage />}/> */}
-          <Route path='/about' element={<AboutPage />}/>
           <Route path='/contact' element={<ContactPage />}/>
           <Route path='/officer' element={<OfficerPage />}/>
           <Route path='/library' element={<LibraryPage />}/>
