@@ -16,6 +16,7 @@ function LibraryPage() {
                 <Video videoID="jqmNCiOF2z4" videoName="Mr. Eric Opiela" desc=""/>
                 <Video videoID="XDVf5oTKPTk" videoName="Dr. Jim Mazurkiewicz" desc=""/>
                 <Video videoID="BU2UX5l3BiY" videoName="Dr. Norman Davies" desc=""/>
+                <Video videoID="nxnEjLcVxzc" videoName="Ms. Shana Penn" desc=""/>
             </div>
         </Container>
         
