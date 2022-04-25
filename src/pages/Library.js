@@ -6,7 +6,7 @@ import Video from "../components/library/Video";
 
 function LibraryPage() {
     return (
-        <Container fluid>
+        <Container>
             <div className={classes.videos}>
                 <Video videoID="gDb_x1uiX7g" videoName="Mr. Paweł Hardej" desc=""/>
                 <Video videoID="kio_YkS5msE" videoName="Dr. Teresa Silverstein" desc=""/>

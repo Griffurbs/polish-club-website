@@ -1,14 +1,13 @@
+import { Container } from "react-bootstrap";
+
 function ContactPage() {
     return (
-        <div>
-            <div>
-                
-            </div>
+        <Container>
             <div className="lead" style={{padding: 10}}>
                 Email us at: &nbsp;
                 <a href = "mailto: texaspolishclub@gmail.com">texaspolishclub@gmail.com</a>
             </div>
-        </div>
+        </Container>
     );
 }
 
