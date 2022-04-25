@@ -15,6 +15,7 @@ import Banner from './components/Banner';
 import RecipePage from './pages/Recipe';
 import JoinPage from './pages/Join';
 import BooksPage from './pages/Books';
+import Walesa from './pages/Walesa';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path='/donate' element={<DonationPage />}/>
           <Route path='/recipe' element={<RecipePage />}/>
           <Route path="/join" element={<JoinPage />}/>
+          <Route path="/walesa" element={<Walesa />}/>
         </Routes>
       </Container>
   );

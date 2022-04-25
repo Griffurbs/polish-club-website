@@ -20,6 +20,7 @@ function MainNavbar() {
                 </NavDropdown>
                 <Nav.Link href="/calendar" className="m-auto">Calendar</Nav.Link>
                 <Nav.Link href="/join" className="m-auto">Join Now</Nav.Link>
+                <Nav.Link href="/walesa" className="m-auto">President Lech Wałęsa event</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
