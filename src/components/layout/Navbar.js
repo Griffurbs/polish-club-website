@@ -21,6 +21,7 @@ function MainNavbar() {
                 <Nav.Link href="/calendar" className="m-auto">Calendar</Nav.Link>
                 <Nav.Link href="/join" className="m-auto">Join Now</Nav.Link>
                 <Nav.Link href="/walesa" className="m-auto">President Lech Wałęsa event</Nav.Link>
+                <Nav.Link href="/courses" className="m-auto">UT Polish language courses</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

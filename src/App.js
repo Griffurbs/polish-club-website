@@ -16,6 +16,7 @@ import RecipePage from './pages/Recipe';
 import JoinPage from './pages/Join';
 import BooksPage from './pages/Books';
 import Walesa from './pages/Walesa';
+import Courses from './pages/Courses';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/recipe' element={<RecipePage />}/>
           <Route path="/join" element={<JoinPage />}/>
           <Route path="/walesa" element={<Walesa />}/>
+          <Route path="/courses" element={<Courses />}/>
         </Routes>
       </Container>
   );
